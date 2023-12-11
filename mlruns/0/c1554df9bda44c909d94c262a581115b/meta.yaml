@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/91930/Documents/Credit%20Card%20Default%20Prediction/mlruns/0/c1554df9bda44c909d94c262a581115b/artifacts
+end_time: 1702288243124
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c1554df9bda44c909d94c262a581115b
+run_name: worried-seal-162
+run_uuid: c1554df9bda44c909d94c262a581115b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702288235369
+status: 3
+tags: []
+user_id: anirudhaAY

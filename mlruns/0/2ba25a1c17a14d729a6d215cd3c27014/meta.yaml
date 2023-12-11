@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/91930/Documents/Credit%20Card%20Default%20Prediction/mlruns/0/2ba25a1c17a14d729a6d215cd3c27014/artifacts
+end_time: 1702288049779
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2ba25a1c17a14d729a6d215cd3c27014
+run_name: righteous-deer-721
+run_uuid: 2ba25a1c17a14d729a6d215cd3c27014
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702288036758
+status: 3
+tags: []
+user_id: anirudhaAY
