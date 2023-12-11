@@ -1,0 +1,46 @@
+schema: '2.0'
+stages:
+  training:
+    cmd: python src/CreditCardDefaulters/pipelines/training_pipeline.py
+    deps:
+    - path: src/CreditCardDefaulters/components/data_ingestion.py
+      hash: md5
+      md5: 38d941f54ab68acb715c4092b7421bbb
+      size: 2033
+    - path: src/CreditCardDefaulters/components/data_transformation.py
+      hash: md5
+      md5: 3820ea9a1b310dba1a3c7d051121c99d
+      size: 4279
+    - path: src/CreditCardDefaulters/components/model_evaluation.py
+      hash: md5
+      md5: 1005a7211f881ccdbb67387efda9460c
+      size: 1991
+    - path: src/CreditCardDefaulters/components/model_trainer.py
+      hash: md5
+      md5: d3881c7e4a9f14472a8a3fcfc352b8b1
+      size: 3106
+    - path: src/CreditCardDefaulters/pipelines/training_pipeline.py
+      hash: md5
+      md5: ffec7cb8df62d081aefafc85dd007a88
+      size: 927
+    outs:
+    - path: artifacts/model.pkl
+      hash: md5
+      md5: 9a10ea6b3f25d2be81e60cf498a1c152
+      size: 132787
+    - path: artifacts/preprocessor.pkl
+      hash: md5
+      md5: 96a8530d7bb8e0d070c386edfa2f12b7
+      size: 2272
+    - path: artifacts/raw.csv
+      hash: md5
+      md5: 238ac45ce71fb5e0c1b2ba6d8214655c
+      size: 3677209
+    - path: artifacts/test.csv
+      hash: md5
+      md5: 066d7d8f42f6bb4b31607e69e9c57124
+      size: 920382
+    - path: artifacts/train.csv
+      hash: md5
+      md5: 341f1a5de5348dc913eae0a27a4161f0
+      size: 2757045

@@ -30,7 +30,7 @@ class ModelEvaluation:
 
         
 
-            mlflow.set_registry_uri("https://dagshub.com/Pranaliyangandul/CreditCardDefaulters.mlflow")
+            mlflow.set_registry_uri("https://dagshub.com/Pranaliyangandul/Credit-Card-Default-Prediction.mlflow")
             
             tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
             
